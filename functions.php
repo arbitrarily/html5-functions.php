@@ -4,7 +4,7 @@
 require_once 'modules/is-debug.php';
 
 // Versioning
-$json = "../package.json";
+$json = get_theme_root() . "REPLACEMEPLEASE/package.json";
 $the_version = json_decode( file_get_contents( $json ), true );
 $the_version = $the_version["version"];
 define("THE_VERSION_NUMBER", $the_version);
