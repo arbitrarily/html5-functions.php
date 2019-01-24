@@ -313,3 +313,14 @@ if ( function_exists('acf_add_options_page') ) {
     ));
 
 }
+
+/*------------------------------------*
+    Includes
+\*------------------------------------*/
+
+// Disable Comments
+require_once 'inc/disable-comments.php';
+
+// Custom Functions
+require_once 'inc/custom-functions.php';
+
